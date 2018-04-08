@@ -1,0 +1,106 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+body, html {
+  width:100%;
+  height: 100%;
+}
+
+.lead {
+  font-size: 1.4rem;
+}
+
+p, a, address {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+}
+
+.modal-title, .modal-caption {
+  color: #1b263e;
+}
+
+/* div, img { border: black 1px solid; } */
+
+nav {
+  background-color: #1b263e !important;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url(../img/img-1.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay-darker {
+  background-color: hsla(0, 0%, 0%, 0.3);;
+}
+
+.bg * {
+  text-shadow: 0 0 10px black;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+blockquote p {
+  font-size: 1rem;
+}
+
+.blockquote-footer {
+  font-style: italic;
+}
+
+button > img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.div-rounded, .card {
+  border-radius:10px;
+}
+
+div.bg-dark {
+  background-color: #1b263e !important; 
+}
+
+.technology-icons {
+  width: 170px;
+}
+
+h, h1 {
+  font-family: 'Questrial', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #5beac3;
+}
+
+.text-md {
+  font-size: 1rem;
+}
+
+/* div {
+  border: 1px solid white;
+} */
